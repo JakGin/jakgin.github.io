@@ -21,6 +21,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'InvestFree',
+    description:
+      'This project is a stock investing simulator where you start with $1,000,000 and can buy and sell shares of popular American stocks.',
+    stack: ['React', 'TailwindCSS', 'Django'],
+    sourceCode: 'https://github.com/JakGin/InvestFree',
+  },
+  {
+    name: 'Mobile Apps',
+    description:
+      'Mobile applications for Android created as part of the mobile applications course at the university. The apps are: Calculator, Weather App, To-Do List',
+    stack: ['Android', 'Kotlin'],
+    sourceCode: 'https://github.com/JakGin/mobile-applications',
+  },
+  {
     name: 'Quizzical',
     description:
       'Web application that allows user to create and solve quizzes. It is built using React and styled-components.',
@@ -54,6 +68,7 @@ const skills = [
   'React',
   'Tailwind CSS',
   'Shadcn',
+  'Chakra-ui',
   'Git',
   'Github',
   'Docker',
